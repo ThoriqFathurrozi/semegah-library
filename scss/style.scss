@@ -1,0 +1,17 @@
+@import 'variables';
+
+* {
+  margin: 0;
+  padding: auto;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $text-font, sans-serif;
+  padding: 2em 4em;
+  background-color: $light-color;
+  color: $text-color;
+}
+
+@import 'header';
+@import 'main';

@@ -1,0 +1,31 @@
+  header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    &-text {
+      width: 10ch;
+      font-weight: 800;
+      color: $heading-color;
+      line-height: 1em;
+    }
+  }
+
+  .nav {
+    display: flex;
+    gap: 3em;
+
+    &-item {
+      list-style: none;
+    }
+  }
+
+  .btn {
+    all: unset;
+    background: $primary-color;
+    color: $light-color;
+    padding: .5em 1em;
+    border-radius: .3rem;
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/main_karya.scss"
+    ],
+    "names": [],
+    "file": "main_karya.min.css"
+}

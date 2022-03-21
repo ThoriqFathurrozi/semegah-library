@@ -1,0 +1,32 @@
+.karya {
+  &-wrap {
+    background-color: $lighter-color;
+    border-radius: .3rem;
+    margin-top: 2em;
+    padding: 2em;
+  }
+  &-box {
+    &-wrap {
+      display: flex;
+    }
+    &-item {
+      background-color: $light-color;
+      display: grid;
+      grid-template-areas: 
+      'title button'
+      'desc button';
+
+      h2 {
+        grid-area: title;
+      }
+
+      p {
+        grid-area: desc;
+      }
+
+      i {
+        grid-area: button;
+      }
+    }
+  }
+}
