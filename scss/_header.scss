@@ -14,10 +14,24 @@
 
   .nav {
     display: flex;
-    gap: 3em;
+    gap: 1em;
 
     &-item {
       list-style: none;
+      color: $text-color;
+      text-decoration: none ;
+      font-size: .9em;
+      border-radius: .3rem;
+      padding: .3em 1em;
+      transition: .5s;
+
+      &:hover {
+        background-color: rgba($color: $text-color, $alpha: .05);
+      }
+
+      &.active {
+        opacity: .5;  
+      }
     }
   }
 

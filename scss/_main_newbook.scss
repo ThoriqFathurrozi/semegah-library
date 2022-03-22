@@ -1,0 +1,13 @@
+.new-book {
+  &-list {
+    display:flex;
+  }
+
+  &-item {
+    &-img {
+      width: 200px;
+      height: 300px;
+
+    }
+  }
+}

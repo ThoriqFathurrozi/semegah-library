@@ -19,34 +19,56 @@
       <h2 class="logo-text"> Semegah Library</h2>
     </div>
     <nav class="nav">
-      <li class="nav-item">Beranda</li>
-      <li class="nav-item">Info</li>
-      <li class="nav-item">Event</li>
-      <li class="nav-item">Berita</li>
-      <li class="nav-item">Tentang</li>
+      <a class="nav-item active" href="#" >Beranda</a>
+      <a class="nav-item" href="#" >Info</a>
+      <a class="nav-item" href="#" >Event</a>
+      <a class="nav-item" href="#" >Berita</a>
+      <a class="nav-item" href="#" >Tentang</a>
     </nav>
     <a href="https://katalog.smkn1glagah.sch.id/" class="btn">Katalog Kami</a>
   </header>
 
   <!-- Main -->
   <main>
-    <section class="karya-wrap">
+    <section class="karya-wrap box">
       <h1 class="karya-title">Karya Kami</h1>
       <p class="karya-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, delectus.</p>
       <div class="karya-box-wrap">
         <div class="karya-box-item">
           <h2>Buku</h2>
-          <p>Cek Karya Buku Kami</p>
-          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          <p>Cek Karya Buku Kami.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
         </div>
         <div class="karya-box-item">
           <h2>Karyaku</h2>
-          <p>Cek Karya Kami Yang Lain</p>
-          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          <p>Cek Karya Kami Yang Lain.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
         </div>
       </div>
     </section>
-    <section class="new-book-wrap"></section>
+
+    <section class="new-book-wrap box">
+      <h1 class="new-book-title">Koleksi Baru</h1>
+      <p class="new-book-desc">Buku Baru, Bacaan Baru</p>
+      <div class="new-book-list">
+        <div class="new-book-item">
+          <img class="new-book-item-img" src="./img/book-peony.jpg" alt="Image Buku">
+          <h3 class="new-book-item-title">Judul Buku</h3>
+          <p class="new-book-item-author">Penulis</p>
+        </div>
+        <div class="new-book-item">
+          <img class="new-book-item-img" src="./img/book-hidden-world.jpg" alt="Image Buku">
+          <h3 class="new-book-item-title">Judul Buku</h3>
+          <p class="new-book-item-author">Penulis</p>
+        </div>
+        <div class="new-book-item">
+          <img class="new-book-item-img" src="./img/book-tom.png" alt="Image Buku">
+          <h3 class="new-book-item-title">Judul Buku</h3>
+          <p class="new-book-item-author">Penulis</p>
+        </div>
+      </div>
+    </section>
+
     <section class="popular-book-wrap"></section>
     <section class="event -wrap"></section>
     <section class="author-wrap"></section>
