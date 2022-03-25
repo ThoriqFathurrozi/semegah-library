@@ -1,13 +1,25 @@
 .new-book {
+  &-wrap {
+    gap: 3em;
+    margin-top: 2em;
+  }
+
   &-list {
-    display:flex;
+    display: flex;
+    margin-top: 2em;
+    gap: 2em;
   }
 
   &-item {
-    &-img {
-      width: 200px;
-      height: 300px;
 
+    &-img {
+      width: 180px;
+      height: 250px;
+      object-fit: cover;
+    }
+    
+    &-author {
+      font-size: .9rem;
     }
   }
 }

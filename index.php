@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -66,10 +66,33 @@
           <h3 class="new-book-item-title">Judul Buku</h3>
           <p class="new-book-item-author">Penulis</p>
         </div>
+        <div class="new-book-item">
+          <img class="new-book-item-img" src="./img/book-tom.png" alt="Image Buku">
+          <h3 class="new-book-item-title">Judul Buku</h3>
+          <p class="new-book-item-author">Penulis</p>
+        </div>
+        <div class="new-book-item">
+          <img class="new-book-item-img" src="./img/book-tom.png" alt="Image Buku">
+          <h3 class="new-book-item-title">Judul Buku</h3>
+          <p class="new-book-item-author">Penulis</p>
+        </div>
       </div>
     </section>
 
-    <section class="popular-book-wrap"></section>
+    <section class="popular-book-wrap box">
+      <h1 class="popular-book-title">Buku Populer</h1>
+      <p class="popular-book-desc">Peringkat buku - buku terpopuler di Perpustakaan Kami</p>
+      <div class="popular-book-list">
+        <div class="popular-book-item">
+          <img class="popular-book-item-img" src="./img/book-tom.png" alt="Image Buku">
+          <h3 class="popular-book-item-title">Judul Buku</h3>
+          <p class="popular-book-item-author">Penulis</p>
+          <p class="popular-book-item-synopsis"></p>
+        </div>
+        <div class="popular-book-item"></div>
+        <div class="popular-book-item"></div>
+      </div>
+    </section>
     <section class="event -wrap"></section>
     <section class="author-wrap"></section>
   </main>
